@@ -1,0 +1,209 @@
+/*
+* 
+* @author Jamilton Damasceno
+*/
+/*Customizacoes gerais*/
+body{
+	background: url('../imagens/capa.png'), url('../imagens/ruido.png'), linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+}
+body,html,.home{
+	height: 100%;
+	overflow-x: hidden;
+}
+h1{
+	color: white;
+	font-weight: 900;
+	font-size: 6em;
+	letter-spacing: -0.1em;
+}
+h2{
+	font-size: 3em;
+	letter-spacing: -0.04em;
+	font-weight: 700;
+	color: white;
+}
+h3{
+	font-size: 2em;
+	letter-spacing: -0.04em;
+	font-weight: 700;
+}
+h4{
+	text-transform: uppercase;
+	color: #919496;
+	font-size: 0.8em;
+}
+/*Customizacoes no Header*/
+	/*Divisor*/
+	.divisor{
+		margin: 7px 10px;
+		color: white;
+	}
+	/*Transparencia*/
+	nav.transparente{
+		padding: 15px;
+		background: rgba(0, 0, 0, 0.6);
+	}
+	/*Cor links*/
+	li.nav-item a.nav-link{
+		color: white;
+	}
+	li.nav-item a.nav-link:hover{
+		color: #7c25f8;
+		transition: all 0.5s;
+	}
+	/*Botoes*/
+	.btn-alterado{
+		border: 1px solid rgba(225, 225, 225, 0.7);
+		color: white;
+		background: none;
+	}
+
+/*Customizacoes na entrada*/
+	.btn-custom{
+		border-radius: 50px;
+		text-transform: uppercase;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.btn-branco{
+		border: 2px solid white;
+		background: none;
+		color: white;
+	}
+	.btn-roxo{
+		color: white;
+		background: #7c25f8;
+	}
+	.btn-roxo:hover{
+		background: #6207e3;
+		transition: all 0.7s;
+	}
+	.btn-branco:hover{
+		background: white;
+		color: black;
+		transition: all 0.7s;
+	}
+
+/*Customizacoes area de conteudo*/
+	#servicos{
+		padding-top: 10px;
+		padding-bottom: 27px;
+		background: white;
+	}
+	#servicos h2,h3{
+		color: #7c25f8;
+	}
+	div.pg p{
+		color: white;
+	}
+	div.pg h3{
+		color: #9bf0e1;
+	}
+	.rotate{
+		transform: rotate(30deg);
+	}
+	section#recursos div.container div.rotate{
+		position: relative;
+		left: 100px;
+	}
+/*Rodape*/
+	footer{
+		background: black;
+		position: relative;
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+	.rodape a{
+		color: white;
+		font-size: 0.8em;
+	}
+	.rodape a:hover{
+		color: #9bf0e1;
+		text-decoration: none;
+		transition: color 0.5s;
+	}
+	ul.redes li{
+		float: right;
+		margin-left: 10px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+	.divisor,.rotate{
+		display: none;
+	}
+	h1{
+		font-size: 2em;
+	}
+	#botoes{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.btn-roxo{
+		margin-bottom: 13px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.divisor,.rotate{
+		display: none;
+	}
+	h1{
+		font-size: 3.8em;
+	}
+	#botoes{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.btn-roxo{
+		margin-bottom: 13px;
+	}
+	div.space div{
+		margin-bottom: 20px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1{
+		font-size: 5em;
+	}
+	img#imgspt{
+		width: 100px;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	img#imgspt{
+		width: 120px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

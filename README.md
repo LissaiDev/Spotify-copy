@@ -11,12 +11,12 @@ Abra o arquivo `index.html` em um navegador da web para visualizar a página rec
 - HTML
 - CSS
 - Bootstrap
-- JavaScript
 
 ## Estrutura do Projeto
 
 - `index.html`: Página principal do projeto.
-- `styles.css`: Arquivo CSS contendo estilos personalizados.
+- `assets/css/styles.css`: Arquivo CSS contendo estilos personalizados.
+- `assets/img/`: Imagens
 
 
 

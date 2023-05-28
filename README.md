@@ -17,7 +17,6 @@ Abra o arquivo `index.html` em um navegador da web para visualizar a página rec
 
 - `index.html`: Página principal do projeto.
 - `styles.css`: Arquivo CSS contendo estilos personalizados.
-- `bootstrap.min.css`: Arquivo CSS do Bootstrap.
-- `bootstrap.min.js`: Arquivo JavaScript do Bootstrap.
+
 
 
